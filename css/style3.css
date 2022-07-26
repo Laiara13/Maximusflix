@@ -1,0 +1,173 @@
+/*#id              .classe*/
+body,ul{
+    background-color: #222222;
+    text-decoration:none;
+    list-style: none;
+    padding: 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    text-decoration:none;
+    list-style: none;
+    padding: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display:flex;
+    background-color: #222222;
+    padding: 0vw;
+    align-items: center;
+}
+
+#logo{
+display: flex;
+width: 16vw;
+height: 15vh;
+left: 1vh;
+right: 1vh;
+top: 10vw;
+}
+
+
+a{
+    color: #F4C430;
+}
+#titulo{
+    font-family: 'Inter', sans-serif;
+    color: #F4C430;
+    display: inline;
+}
+
+#nav{
+    display: inline-flex;
+
+}
+
+.cat{
+    background-color: #F4C430;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.line{
+    background-color: #F4C430;
+    height: 0.5vh;
+    border: none;
+}
+.anuncio{
+
+    background-color: #000;
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
+}
+
+#p{
+    color:#F4C430;
+}
+#area {
+    display: inline-block;
+    left: 5vh;
+    width: 50vh;
+    top: 5vw;
+    margin: 0vh;
+    color: #d9d9d9;
+}
+legend
+{
+  font-weight:bold;
+  font-family: 'Inter', sans-serif;
+}
+
+#formulario label
+{
+  display: inline-block;
+  left:19vh;
+  margin-right:5vh;
+  align-items: center;
+}
+#nome{
+
+    color: #d9d9d9;
+    display: flex;
+    margin: 0vh;
+    align-items: center;
+}
+#form{
+    height: 7vh;
+    width: 8vw;
+    align-items: center;
+}
+fieldset
+{
+    color: #d9d9d9;
+    width: 30vw;
+    height: 40vh;
+    align-items: center;
+}
+/*
+left: vh
+right: vh
+top: vw
+bottom: vw
+width: vw
+height: vh
+height altura
+widht largura
+*/
+
+
+@media (max-width: 650px) {
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 12vh;
+    }
+
+    .in {
+     display: grid;
+     grid-column: auto;
+     
+    }
+    .sus{
+        width: 70vw;
+    }
+    .links{
+        width: 70vw;
+    }
+
+   }
+
+
+   @media (min-width: 650px) and (max-width: 1200px) {
+
+    
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 10vh;
+    }
+
+       .in {
+        display: inline-table;
+        
+       }
+       .sus{
+           width: 40vw;
+       }
+       .links{
+           width: 40vw;
+       }
+      }

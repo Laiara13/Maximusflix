@@ -1,0 +1,164 @@
+/*#id              .classe*/
+body,ul{
+    background-color: #222222;
+    text-decoration:none;
+    list-style: none;
+    padding: 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    text-decoration:none;
+    list-style: none;
+    padding: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display:flex;
+    background-color: #222222;
+    padding: 0vw;
+    align-items: center;
+}
+
+#logo{
+display: flex;
+width: 11vw;
+height: 12vh;
+left: 1vh;
+right: 1vh;
+top: 10vw;
+}
+a{
+    color: #F4C430;
+}
+
+
+#nav{
+    display: inline-flex;
+
+}
+
+.cat{
+    background-color: #F4C430;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.line{
+    background-color: #F4C430;
+    height: 0.5vh;
+    border: none;
+}
+.anuncio{
+
+    background-color: #000;
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
+}
+
+#foto{
+
+    display: flex;
+    padding: 0vw;
+    width: 23vw;
+    height: 60vh;
+    align-items: center;
+    margin: auto;
+}
+.sus{
+
+    display: flex;
+    height: 39vh;
+    width: 20vw;
+    display: inline;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    align-items: center;
+}
+#p{
+    color:#F4C430;
+}
+
+.links{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: flex;
+    height: 6vh;
+    width: 20vw;
+    margin-left: 5vw;
+    align-items: center;
+
+}
+.in{
+    margin: 0vw;
+    height: 44vh;
+    width: 30vw;
+    display: inline-block;
+    
+}
+
+
+#titulo {
+    font-family: 'Inter', sans-serif;
+    color: #F4C430;
+    display: flex;
+    align-items: center;
+    margin-inline: 5vh;
+}
+
+
+@media (max-width: 650px) {
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 12vh;
+    }
+
+    .in {
+     display: grid;
+     grid-column: auto;
+     
+    }
+    .sus{
+        width: 70vw;
+    }
+    .links{
+        width: 70vw;
+    }
+
+   }
+
+
+   @media (min-width: 650px) and (max-width: 1200px) {
+
+    
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 10vh;
+    }
+
+       .in {
+        display: inline-table;
+        
+       }
+       .sus{
+           width: 40vw;
+       }
+       .links{
+           width: 40vw;
+       }
+      }

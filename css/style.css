@@ -1,0 +1,210 @@
+/*#id              .classe*/
+body,ul{
+    background-color: #222222;
+    text-decoration:none;
+    list-style: none;
+    padding: 0vw;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    text-decoration:none;
+    list-style: none;
+    padding: 1vw;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display:flex;
+    background-color: #222222;
+    padding: 0vw;
+    align-items: center;
+}
+
+#logo{
+display: flex;
+width: 16vw;
+height: 15vh;
+left: 1vh;
+right: 1vh;
+top: 10vw;
+}
+a{
+    
+    color: #F4C430;
+}
+#titulo{
+    font-family: 'Inter', sans-serif;
+    color: #F4C430;
+}
+
+#nav{
+    display: inline-flex;
+
+}
+
+.cat{
+    background-color: #F4C430;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.line{
+    background-color: #F4C430;
+    height: 0.5vh;
+    border: none;
+}
+.anuncio{
+
+    background-color: #000;
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
+}
+
+#foto {
+    display: flex;
+    padding: 0vw;
+    width: 30vw;
+    height: 60vh;
+    align-items: center;
+    margin: auto;
+}
+.sus{
+
+    display: flex;
+    height: 39vh;
+    width: 16vw;
+    display: inline;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    align-items: center;
+
+}
+#p{
+    color:#F4C430;
+}
+
+.links{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    display: flex;
+    height: 6vh;
+    width: 20vw;
+    margin-left: 5vw;
+    align-items: center;
+
+}
+.in{
+    margin: 0vw;
+    height: 44vh;
+    width: 21vw;
+    display: inline-block;
+    
+}
+
+/*Filmes:
+Chose or die: https://www.netflix.com/br/title/81488262
+Hypnotic: https://www.netflix.com/br/title/81225962
+Os orfãos: https://www.netflix.com/br/title/81019343
+A oitava noite https://www.netflix.com/br/title/81457374
+Navio Fantasma https://www.netflix.com/br/title/60025115
+O Sono da Morte https://www.netflix.com/br/title/80002667
+Marcas da Maldição https://www.netflix.com/br/title/81599888
+Verônica - Jogo Sobrenatural https://www.netflix.com/br/title/80109295
+O Filho de Chucky https://www.netflix.com/br/title/70001995
+Sobrenatural: A Última Chave https://www.netflix.com/br/title/80185924
+Ouija: Origem do Mal https://www.netflix.com/br/title/80106763
+A Bruxa https://www.netflix.com/br/title/80037280
+*/
+
+@media (min-width: 650px) and (max-width: 1200px) {
+
+    
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 10vh;
+    }
+
+       .in {
+        display: inline-table;
+        
+       }
+       .sus{
+           width: 40vw;
+       }
+       .links{
+           width: 40vw;
+       }
+
+       .anuncio{
+
+        color: aliceblue;
+        width: 60vw;
+        height: 60vh;
+        
+       }
+       .foto{
+
+        width: 40vw;
+
+       }
+      }
+
+
+@media (max-width: 700px) {
+
+    #titulo {
+        font-family: 'Inter', sans-serif;
+        color: #F4C430;
+        display: flex;
+        align-items: center;
+        margin-inline: 12vh;
+    }
+    
+
+    #foto {
+        display: flex;
+        padding: 0vw;
+        width: 64vw;
+        height: 40vh;
+        align-items: center;
+        margin: auto;
+    }
+    
+
+    .in {
+     display: grid;
+     grid-column: auto;
+     
+    }
+    .sus{
+        width: 70vw;
+    }
+    .links{
+        width: 70vw;
+    }
+
+    .anuncio {
+        color: aliceblue;
+        width: 85vw;
+        height: 45vh;
+    }
+    
+       .foto{
+    
+        width: 35vw;
+    
+       }
+    
+
+   }
